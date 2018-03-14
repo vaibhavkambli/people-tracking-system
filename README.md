@@ -1,6 +1,7 @@
 #last updated on 14-03-2018 
 # people-tracking-system
-People and asset tracking system. 
+People and asset tracking system.
+ 
 Hardware support : 
    1. Happy Bubble Presence Detectors 
    2. Raspberry Pi 3
