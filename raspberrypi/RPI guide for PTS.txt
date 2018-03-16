@@ -1,0 +1,9 @@
+Compile with GCC (linked libraries:- pahoMQTT, Jansson, Math)
+	gcc -o mqttjson mqttjson.c  -l paho-mqtt3c -ljansson -w -lm
+   
+   gcc -o pubexample  pubexample.c  -l paho-mqtt3c
+
+
+paho MQTT:- https://github.com/eclipse/paho.mqtt.c.git 
+JANSSON:  https://github.com/akheron/jansson.git 
+follow guides for libraries installation 
