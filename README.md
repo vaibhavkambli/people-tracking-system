@@ -1,4 +1,4 @@
-#last updated on 14-03-2018 15.32
+#last updated on 24-04-2018 11.05
 # people-tracking-system
 People and asset tracking system.
  
@@ -7,9 +7,14 @@ Hardware support :
    2. Raspberry Pi 3
    3. ESP32 kit with Wifi and Bluetooth
    
-ESP32 and HBPD used for bluetooth ibeacons tracking, hey detectos location advertisements from beacons
-collect the information from ibeacon advertisements and form packet in json data format and sent it over MQTT to 
-Raspberry Pi Server.
-Raspberry Pi Server for people tracking is advance system which get the information on MQTT and process it, 
-Get the important information and predict the location of beacons with advance algorithms like trilateration, 
-kalmann filtering, fingerprinting.   
+For HBPD
+https://www.happybubbles.tech/presence/detector
+
+Raspberry Server for processing
+Process MQTT data and estimate position.
+
+ESP32 Receiver
+Replacment For HBPD. 
+compatible with my Raspberry Pi server 
+Also compatible with happy bubble server 
+https://github.com/happy-bubbles/presence 
